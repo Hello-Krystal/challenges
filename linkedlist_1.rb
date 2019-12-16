@@ -69,8 +69,10 @@ node1 = LinkedListNode.new(37)
 node2 = LinkedListNode.new(99, node1)
 node3 = LinkedListNode.new(12, node2)
  
+#prints original and reversed list
 print_values(node3)
 puts "-------"
 revlist = reverse_list(node3)
 print_values(revlist)
+
 
